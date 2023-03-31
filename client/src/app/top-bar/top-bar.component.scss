@@ -1,0 +1,14 @@
+.top-navbar {
+  min-height: 8vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vh;
+  border-radius: 10px;
+  background-color: rgb(30, 31, 33);
+  display: flex;
+}
+
+.top-navbar > ul {
+  color: white;
+  display: inline-flex;
+}
