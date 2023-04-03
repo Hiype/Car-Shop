@@ -1,0 +1,12 @@
+.split-page {
+  background-image: url("../../assets/background_blured_gradient.png");
+}
+
+.split-page > div {
+  background-color: black;
+  color: white;
+  width: 50vw;
+  height: 100vh;
+  display: inline-flex;
+  justify-content: center;
+}

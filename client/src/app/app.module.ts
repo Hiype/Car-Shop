@@ -9,12 +9,14 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { LoginInfoBoxComponent } from './login-info-box/login-info-box.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatGridListModule} from "@angular/material/grid-list";
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopBarComponent,
-    LoginInfoBoxComponent
+    LoginInfoBoxComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
